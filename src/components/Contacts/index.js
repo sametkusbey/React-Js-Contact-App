@@ -10,9 +10,9 @@ function Contacts() {
 
     return (
         <div>
-            
+
             <Form addContact={setContacts} contacts={contacts} />  {/* form componentine ikş tane pros geçtik biri addcontact, diğeri contactta avr olan değerler */}
-            <br/>
+            <br />
             <List contacts={contacts} />
         </div>
     )
